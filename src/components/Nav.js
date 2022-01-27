@@ -2,24 +2,22 @@ import React from "react";
 
 function Nav() {
   return (
-    <div>
+    <nav>
         <section class="top-nav">
             <div>
-            Logo Here
+            (┛ಠ_ಠ)┛彡┻━┻
             </div>
             <input id="menu-toggle" type="checkbox" />
             <label class='menu-button-container' for="menu-toggle">
-            <div class='menu-button'></div>
-        </label>
+                <div class='menu-button'></div>
+            </label>
             <ul class="menu">
-            <li>One</li>
-            <li>Two</li>
-            <li>Three</li>
-            <li>Four</li>
-            <li>Five</li>
+                <li>Features</li>
+                <li>How It Works</li>
+                <li>Pricing</li>
             </ul>
         </section>
-    </div>
+    </nav>
   );
 }
 
