@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav>
+    <nav className="fixed-top">
         <section class="top-nav">
             <div>
             (┛ಠ_ಠ)┛彡┻━┻

@@ -38,6 +38,7 @@ html, body {
 
 .menu > li {
   margin: 0 1rem;
+  overflow: hidden;
 }
 
 .menu-button-container {
@@ -132,7 +133,7 @@ html, body {
 }
 
 .email-field {
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 /* features */
