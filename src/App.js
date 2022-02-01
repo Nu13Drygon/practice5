@@ -38,6 +38,11 @@ function App() {
     }
   }
 
+  const refreshPage = () => {
+    fetchAnimeGirls()
+    fetchAnimeQuotes()
+  }
+
   useEffect(() => {
     fetchAnimeGirls() 
     fetchAnimeQuotes() 
@@ -55,10 +60,9 @@ function App() {
             <img className='' src={img.images[0].url} alt="waifu"/>
             {loading2 || loading ? 'loading' : <Factz {...facts} /> }
           </div>
-          <div className='col-4 text-center'>
-            <img className='' src={img.images[0].url} alt="waifu"/>
-            {loading2 || loading ? 'loading' : <Factz {...facts} /> }
-          </div>
+        </div>
+        <div className='text-center pt-6'>
+          <button className='btn btn-primary' onClick={refreshPage}>Refresh</button>
         </div>
       </div>
     );
