@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Spinner from 'react-bootstrap/Spinner'
 
 // components
-const animePics = 'https://api.waifu.im/sfw/random/'
+const animePics = 'https://api.waifu.im/random/'
 const animeQuotesUrl = 'http://api.quotable.io/random' 
 
 
